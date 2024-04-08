@@ -1,0 +1,61 @@
+<!-- 
+1- NARRADOR (1)
+Crear desde cero una página que contenga:
+1- Menú de navegación: que haya una opción oculta que nos permita SALTAR el menú
+Que haya otra opción visible que nos permita ir a otro lugar de la página
+2- Al menos dos imágenes. Describir el contenido de la imagen con ALT
+3- Párrafos de texto antes y después de las imágenes. Pueden ser Lorem Ipsum
+Tener en cuenta las jerarquías y orden de la página HTML.
+Usar CSS para esconder vínculos que deben ser ocultos.
+Comprobar que se lee correctamente y da las opciones necesarias al activar el NARRADOR del sistema. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseño-narrador.css">
+    <title>Ciudades Europeas</title>
+</head>
+<body>
+    
+    <header>
+
+        <h1>Ciudades Europeas</h1>
+
+        <a href="#tituloprincipal" class="oculto">Pulsa enter para saltar el menú de navegación</a>
+
+        <nav>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://es.wikipedia.org/wiki/%25C3%2581msterdam&ved=2ahUKEwiL2fTbqLOFAxXYh_0HHXy9A24QFnoECAYQAQ&usg=AOvVaw3Y0R-r1PeMtGJ0qraJri6Z">Amsterdam</a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://es.wikipedia.org/wiki/Bruselas&ved=2ahUKEwiXvdjiqLOFAxWdi_0HHX4dB6YQFnoECAgQAQ&usg=AOvVaw1hfzjqZbQsMqUlDb-1ziuF">Brusselas</a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://es.wikipedia.org/wiki/Praga&ved=2ahUKEwi85-LmqLOFAxVB9bsIHXL3Ak4QFnoECAgQAQ&usg=AOvVaw0Lr37wPglN2QOPzvRCs4kx">Praga</a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://es.wikipedia.org/wiki/Roma&ved=2ahUKEwiw0KzqqLOFAxU6g_0HHZrOCW0QFnoECAYQAQ&usg=AOvVaw0-7lx9t6IoEQGjL07GxrQu">Roma</a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://es.wikipedia.org/wiki/Berl%25C3%25ADn&ved=2ahUKEwiP8anwqLOFAxU2gP0HHfjPDIgQFnoECAYQAQ&usg=AOvVaw2d2ou8KzMOXhacYGdJguUX">Berlín</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <h1 id="tituloprincipal">¡Bienvenido a Londres!</h1>
+
+    <main>
+
+        <figure>
+            <img src="img/londres1.jpg" alt="Big-Ben" id="bigben">
+            <img src="img/londres2.jpg" alt="Tower-Bridge" id="towerbridge">
+        </figure>
+            <figcaption>Fotografia del Big Ben de Londres durante el anochecer y del Tower Bridge durante el dia.</figcaption>
+        <p>Londres es la capital del Reino Unido y una de las ciudades más grandes e influyentes del mundo, reconocida por su rica historia, diversidad cultural, icónicos puntos de referencia como el Big Ben y el Palacio de Buckingham, así como su papel como centro financiero y cultural global, albergando una amplia gama de instituciones culturales, financieras y de entretenimiento.</p>
+        </main>
+
+    <hr>
+
+    <footer>
+        <a href="instagram.com">Instagram</a>
+        <a href="twitter.com">Twitter</a>
+    </footer>
+
+    <script src="diseño-narrador.js"></script>
+</body>
+</html>
